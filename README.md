@@ -15,7 +15,8 @@ Keras | Tensorflow
 GRID dataset
 
 # Results
-We evaluated our results with two criteria: MSE & SNR.
+
+
 
 | Architecture  | MSE           | SNR           |
 | ------------- | ------------- | ------------- |
@@ -23,3 +24,4 @@ We evaluated our results with two criteria: MSE & SNR.
 | No Video      | 0.00496       | 0.00104       | 
 | No Discrim.   | 1.06589       | 0.00203       | 
 | Just Audio    | 1.09894       | 0.00207       | 
+
