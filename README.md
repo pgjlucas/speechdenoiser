@@ -2,7 +2,7 @@
 Development of an autoencoder able to denoise speeches by using both audio and video signals (lips movement)
 
 # Library & tools
-Keras | Tensorflow
+Keras | cv2 | Librosa
 
 # Autoencoder architecture
 - Video encoder, fed with crops of mouths
