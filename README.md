@@ -1,20 +1,20 @@
 # Speech Denoiser
 Development of an autoencoder able to denoise speeches by using both audio and video signals (lips movement)
 
-# Library & tools
+## Library & tools
 Keras | cv2 | Librosa
 
-# Autoencoder architecture
+## Autoencoder architecture
 - Video encoder, fed with crops of mouths
 - Audio encoder, fed with the mel frequency spectogram of the audio, where a Gaussian noise was added
 - Latent vector transform
 - Audio decoder
 - Discriminator (for training)
 
-# Dataset
+## Dataset
 GRID dataset
 
-# Results
+## Results
 The criteria to evaluate our model were MSE and SNR. 
 On the table below, we studied the effects of the different parts of our model.
 The results were obtained for the following settings:
